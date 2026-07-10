@@ -1,3 +1,12 @@
 ing {
     width: 300px;
 }
+
+header {
+    background-color: black;
+    color: rgba(255, 0, 170, 0.888);
+    text-align: center;
+    min-width: 800px;
+    margin: 0auto;
+    padding: 16px;
+}
