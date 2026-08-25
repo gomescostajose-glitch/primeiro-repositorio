@@ -1,20 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -*-ing {
     width: 300px;
 }
@@ -26,4 +9,13 @@ header {
     min-width: 800px;
     margin: 0auto;
     padding: 16px;
+
+}
+
+.artigo-autor {
+    font-weight: bold;       /* espessura da fonte - negrito */
+}
+
+article {
+    display: flex;        /* contânier flexivel */
 }
