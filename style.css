@@ -19,3 +19,8 @@ header {
 article {
     display: flex;        /* contânier flexivel */
 }
+
+footer {
+    margin: 0 auto;
+padding: 20px;
+}
