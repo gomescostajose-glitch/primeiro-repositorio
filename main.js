@@ -9,10 +9,10 @@ botoes.forEach(function   (botao) {
         if (curtiu === false) {
             texto.textcontent++;
             curtiu = true;
-            } else {
-                texto.textContent--;
-                curtiu = false;
-        }
+                } else {
+                    texto.textcontent--;
+                    curtiu = false;
+                }
         
     }
     
