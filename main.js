@@ -1,19 +1,17 @@
-const botoes = document.queryselectorA11("button");
+const botoes = document.querySelectorAll("button");
 
-botoes.forEach(function   (botao) {
-    let curtiu = false
-    botao.addEventlistener("clik", botaoclicado);
-    function botaoclicado () {
+botoes.forEach(function (botao) {
+    let curtiu = false;
+    botao.addEventListener("click", botaoClicado);
+    function botaoClicado() {
         console.log("fui clicado");
-        let texto = botao.queryselector("span");
+        let texto = botao.querySelector("span");
         if (curtiu === false) {
-            texto.textcontent++;
+            texto.textContent++;
             curtiu = true;
-                } else {
-                    texto.textcontent--;
-                    curtiu = false;
-                }
-        
+        } else {
+            texto.textContent--;
+            curtiu = false;
+        }
     }
-    
 })

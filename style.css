@@ -1,36 +1,39 @@
--*-ing {
+img {
     width: 300px;
 }
 
 header {
-    background-color: black;
+     background-color: black;
     color: rgba(255, 0, 170, 0.888);
     text-align: center;
     min-width: 800px;
     margin: 0auto;
     padding: 16px;
+}
 
+main {
+    background-color: #FFFFFF;
+    color: #183C63;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
 .artigo-autor {
-    font-weight: bold;       /* espessura da fonte - negrito */
+    font-weight: bold;      /* espessura da fonte - negrito  */
 }
 
 article {
-    display: flex;        /* contânier flexivel */
+    display: flex;  /* contâiner flexível */
 }
 
 footer {
-    margin: 0 auto;
-padding: 20px;
-}
-
-footer {
-    background-color: darkmagenta;
+    background-color: rgb(226, 45, 187);
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 16px;
+    color: black;
 }
 
 div {
